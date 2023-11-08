@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  open5gs-bsf:
+  - apiVersion: v2
+    appVersion: 2.4.11
+    created: "2023-11-08T09:13:34.830864765Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: 'Helm chart to deploy Open5gs BSF service on Kubernetes. '
+    digest: c68ed38bb4f3db4b82e49faa41edf96d7af6e386ed8e903ca52faf9c37548e52
+    icon: https://open5gs.org/assets/img/open5gs-logo.png
+    keywords:
+    - ngc
+    maintainers:
+    - email: cgiraldo@gradiant.org
+      name: cgiraldo
+    name: open5gs-bsf
+    urls:
+    - open5gs-bsf-2.1.0.tgz
+    version: 2.1.0
+generated: "2023-11-08T09:13:34.827946069Z"
